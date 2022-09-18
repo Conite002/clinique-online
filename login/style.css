@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+
+.section-login{
+    height: 100vh;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background: url(../images/login/1.png) center center no-repeat;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    padding: 1rem 2rem !important;
+    color: white;
+}
+.section-login-content{}
+
+.section-login-contentCol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section-login-content-logo{
+    width: 100px;
+    height: 100px;
+}
+.section-login-content-title{
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 2rem 0px;
+}
+
+.section-login-content-description{
+    font-size: 1.1rem;
+    color: #818181;
+    font-weight: 400 !important;
+}
